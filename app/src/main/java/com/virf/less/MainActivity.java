@@ -381,7 +381,7 @@ String sss=dir; text1.setText(dir);
 	 if (menu.equals("tel") ) {
 	      
 	     intent = new Intent(Intent.ACTION_DIAL);
-             intent.setData(Uri.parse("tel:+79164770173"));
+             intent.setData(Uri.parse("tel:12345678"));
              startActivity(intent);
 	 }	
 	 
